@@ -13,12 +13,19 @@ There are 14 features such as age, education, marital status and 48842 entries.
 The dataset includes a target divided into two classes: <=50K and >50K which signifies annual income.
 
 ## Analytical Insights
+Best Models were Grid Search for LGBM and a Weighted LGBM
+![](gs_lgbm.png)
+![](weighted_lgbm.png)
+
+Most Important Features:
+I would Net Capital is more of an effect more than a cause since the more money you make, the more likely you will have money saved up.
+![](combined_feature_importance.png)
+
+Are far as those with the highest education seemed to have the most capital.
 ![Net_Capital_vs_Education](Net_Capital_vs_Education.png)
 
-2 analytical insights from your data analysis.  
-You can use the 2 plots from Project 2, part 3 for this!
-They should include visualizations AND written interpretations
+The top occupations with the highest average education level were Professional Specialty and Executive Management.
+![](avg_edu_by_occupation.png)
 
-The metrics for your best model
-A description of how well your model would solve your business problem
-A summary with at least 2 recommendations for your stakeholders, based on your model performance AND analytical findings.
+The occupations with the most counts of income over $50k were Executive Management and Professional Specialty
+![](occupation_counts_50plus.png)
