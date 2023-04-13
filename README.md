@@ -13,9 +13,8 @@ There are 14 features such as age, education, marital status and 48842 entries.
 The dataset includes a target divided into two classes: <=50K and >50K which signifies annual income.
 
 ## Analytical Insights
-<p align = "center"> 
-  <img src = "Net_Capital_vs_Education.png">
-</p>
+![Net_Capital_vs_Education](Net_Capital_vs_Education.png)
+
 2 analytical insights from your data analysis.  
 You can use the 2 plots from Project 2, part 3 for this!
 They should include visualizations AND written interpretations
