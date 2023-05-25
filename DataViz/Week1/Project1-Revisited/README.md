@@ -1,46 +1,19 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "b18f040a",
-   "metadata": {},
-   "source": [
-    "![](linreg_top3.png)"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python (dojo-env)",
-   "language": "python",
-   "name": "dojo-env"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.9.15"
-  },
-  "toc": {
-   "base_numbering": 1,
-   "nav_menu": {},
-   "number_sections": false,
-   "sideBar": true,
-   "skip_h1_title": false,
-   "title_cell": "Table of Contents",
-   "title_sidebar": "Contents",
-   "toc_cell": false,
-   "toc_position": {},
-   "toc_section_display": true,
-   "toc_window_display": false
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+![](linreg_top3.png)
+According to the LinearRegression model, it Looks like the top 3 features would be: 
+- Supermarket Type1
+- Supermarket Type 3
+- and Outlet 027
+
+This shows that the location of the outlet the items are in and the type of market heavily influences whether or not the item will sell.
+
+![](rf_top5.png)
+According to the RandomForestRegression model, it Looks like the top  features would be:
+- Item MRP
+- Item Visibility
+- Supermarket Type1
+- Outlet 027
+- Item Weight
+
+This shows that the price, visibility, item weight, supermarket type and outlet heavily influences whether or not the item will sell.
+
+The RandomForest Model agrees with the LinearRegression model that Type1 Supermarket and Outlet 027 seem to be a big influence.
