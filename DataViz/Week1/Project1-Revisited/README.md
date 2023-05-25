@@ -1,4 +1,5 @@
 ![](linreg_top3.png)
+
 According to the LinearRegression model, it Looks like the top 3 features would be: 
 - Supermarket Type1
 - Supermarket Type 3
@@ -7,6 +8,7 @@ According to the LinearRegression model, it Looks like the top 3 features would 
 This shows that the location of the outlet the items are in and the type of market heavily influences whether or not the item will sell.
 
 ![](rf_top5.png)
+
 According to the RandomForestRegression model, it Looks like the top  features would be:
 - Item MRP
 - Item Visibility
