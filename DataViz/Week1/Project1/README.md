@@ -36,5 +36,4 @@ According to the dot summary plot, the top 3 most import features are:
 
 
 
-- A higher MRP lead to more sales
-- Items sold more in Type 1 and Outlet 27
+A higher MRP lead to more sales and items sold more in Type 1 and Outlet 27
