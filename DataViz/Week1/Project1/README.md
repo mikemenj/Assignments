@@ -19,3 +19,22 @@ According to the RandomForestRegression model, it Looks like the top  features w
 This shows that the price, visibility, item weight, supermarket type and outlet heavily influences whether or not the item will sell.
 
 The RandomForest Model agrees with the LinearRegression model that Type1 Supermarket and Outlet 027 seem to be a big influence.
+
+
+![](rf_shap_bar.png)
+
+![](rf_top5.png)
+
+When comparing the Feature Importance versus the Shap Summary plots, 4 of the top 5 Features are the same in both but are ranked differently. Item_MRP is the most important in both.
+
+![](rf_shap_dot.png)
+
+According to the dot summary plot, the top 3 most import features are:
+- Item MRP
+- Supermarket Type 1
+- Outlet 27
+
+
+
+- A higher MRP lead to more sales
+- Items sold more in Type 1 and Outlet 27
