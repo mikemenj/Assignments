@@ -37,3 +37,25 @@ According to the dot summary plot, the top 3 most import features are:
 
 
 A higher MRP lead to more sales and items sold more in Type 1 and Outlet 27
+
+
+![](high_forceplot.png)
+
+![](high_waterfall.png)
+
+In this example, being in outlet 27, being in a Type 3 outlet and having a high MRP were the greatest influences for having high sales for this item.
+
+![](high_LIME.png)
+According to LIME, the top positive features that helped increase the sales are the MRP, that it is in Outlet 27, and it is a Type 3 Supermarket.
+The biggest factor for having a lower sales is that it is not a Type 1 supermarket.
+
+
+![](low_forceplot.png)
+
+![](low_waterfall.png)
+
+In the Low-selling Outlet Example,the item MRP helped influence the sales but not enough to compensate for it  not being in outlet 27, and not being in either a type 1 or type 3 supermarket
+
+![](low_LIME.png)
+The biggest factors contributing to this example having low sales were it not being a Type 1 or Type 3 supermarket and not being in Outlet 27. The MRP helped in a positive way but not enough to compensate for the other factors.
+
