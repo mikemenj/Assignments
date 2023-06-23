@@ -1,1 +1,2 @@
 ![screenshot](dashboard-screenshot.png)
+[Tableau Dashboard](https://public.tableau.com/views/ChicagoCrimeDashboard_16874051650310/ChicagoCrimeDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
