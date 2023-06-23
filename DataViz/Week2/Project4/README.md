@@ -1,0 +1,1 @@
+!(dashboard-screenshot.png)[screenshot]
