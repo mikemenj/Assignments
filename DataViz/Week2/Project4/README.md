@@ -1,1 +1,1 @@
-!(dashboard-screenshot.png)[screenshot]
+![screenshot](dashboard-screenshot.png)
